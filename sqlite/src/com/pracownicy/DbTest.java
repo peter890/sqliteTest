@@ -31,9 +31,8 @@ public class DbTest {
 			while(rs.next()){
 				System.out.print("\n" + rs.getString("id") + " ");
 				System.out.print(rs.getString("imie")+ " ");
-				System.out.print(rs.getString("data_urodzenia") + " ");
 				System.out.print(rs.getString("nazwisko")+" ");
-				
+				System.out.print(rs.getString("data_urodzenia") + " ");
 			}
 			rs.close();
 			
